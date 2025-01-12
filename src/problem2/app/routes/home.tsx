@@ -9,5 +9,11 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <FancyForm />;
+  return (
+    <div className="w-screen min-h-screen flex flex-col justify-center items-center">
+      <div className="mx-auto max-w-xl w-full">
+        <FancyForm />
+      </div>
+    </div>
+  );
 }

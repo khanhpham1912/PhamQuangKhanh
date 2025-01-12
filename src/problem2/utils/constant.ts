@@ -1,4 +1,4 @@
-export const price = [
+export const prices = [
   {
     currency: "BLUR",
     date: "2023-08-29T07:10:40.000Z",
